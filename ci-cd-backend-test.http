@@ -1,0 +1,6 @@
+@ci_cd_backend_test_HostAddress = http://localhost:5266
+
+GET {{ci_cd_backend_test_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
